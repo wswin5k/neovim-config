@@ -7,4 +7,6 @@ vim.opt.number = true
 
 vim.opt.mouse = ""
 
+vim.keymap.set("n", "nn", "<Cmd>Neotree toggle<CR>")
+
 require("config.lazy")
