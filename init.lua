@@ -5,7 +5,8 @@ vim.opt.softtabstop = 2
 
 vim.opt.number = true
 
-vim.opt.mouse = ""
+vim.opt.mouse = "a"
+vim.opt.clipboard = "unnamedplus"
 
 vim.keymap.set("n", "<leader>nn", "<Cmd>Neotree toggle<CR>")
 
