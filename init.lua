@@ -11,4 +11,3 @@ vim.opt.clipboard = "unnamedplus"
 vim.keymap.set("n", "<leader>nn", "<Cmd>Neotree toggle<CR>")
 
 require("config.lazy")
-require("config.lsp")
